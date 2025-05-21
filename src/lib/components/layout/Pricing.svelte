@@ -37,114 +37,162 @@ Please update features according to the company's product offering. Do not remov
 	const {
 		title = "Simple, transparent pricing",
 		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		tierNames = ["Starter", "Professional", "Enterprise"],
 		features = [
-			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
-				}
+		{
+			name: "AI agent automation",
+			tiers: {
+				Starter: "Core workflows",
+				Professional: "Advanced automations",
+				Enterprise: "Fully custom"
 			}
-		],
+		},
+		{
+			name: "Due diligence accelerator",
+			tiers: {
+				Starter: "48 hour reports",
+				Professional: "Multi-market, 48 hour reports",
+				Enterprise: "Custom turnaround and asset types"
+			}
+		},
+		{
+			name: "Workflow automation",
+			tiers: {
+				Starter: "Site screening, zoning, docs",
+				Professional: "Permitting, utility, test fits",
+				Enterprise: "Custom build & expand as needed"
+			}
+		},
+		{
+			name: "Site selection tools",
+			tiers: {
+				Starter: true,
+				Professional: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "Integrations (public data)",
+			tiers: {
+				Starter: "Basic parcel/tax data",
+				Professional: "Pipeline and GIS",
+				Enterprise: "Custom integrations"
+			}
+		},
+		{
+			name: "Team collaboration",
+			tiers: {
+				Starter: false,
+				Professional: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "Compliance & security (SOC2, GDPR, CCPA)",
+			tiers: {
+				Starter: true,
+				Professional: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "API access",
+			tiers: {
+				Starter: false,
+				Professional: true,
+				Enterprise: "Enterprise/scalable endpoints"
+			}
+		},
+		{
+			name: "Agent customization",
+			tiers: {
+				Starter: false,
+				Professional: "Limited",
+				Enterprise: "Full custom agents"
+			}
+		},
+		{
+			name: "Document automation",
+			tiers: {
+				Starter: "Basic",
+				Professional: "Advanced",
+				Enterprise: "Custom templates"
+			}
+		},
+		{
+			name: "Support response time",
+			tiers: {
+				Starter: "By email, 48 hours",
+				Professional: "Priority, 12 hours",
+				Enterprise: "Premium, 4 hours + live agent"
+			}
+		},
+		{
+			name: "Onboarding",
+			tiers: {
+				Starter: "Self-serve & weekly office hours",
+				Professional: "Guided onboarding",
+				Enterprise: "Enterprise-level, on-site if needed"
+			}
+		},
+		{
+			name: "Forward-deployed Build engineering",
+			tiers: {
+				Starter: false,
+				Professional: false,
+				Enterprise: true
+			}
+		},
+		{
+			name: "Governance & SSO",
+			tiers: {
+				Starter: false,
+				Professional: false,
+				Enterprise: true
+			}
+		}
+	],
 		tiers = [
 			{
 				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				monthlyPrice: null,
+				yearlyPrice: null,
+				description: "Best for smaller or emerging infrastructure developers ready to automate their first workflows.",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"Core AI agent workflows (site screening, zoning, due diligence)",
+					"48-hour due diligence reports",
+					"Basic integrations with public parcel and tax data",
+					"Document automation (basic)",
+					"Compliance & security: SOC2, GDPR, CCPA",
+					"Self-serve onboarding and weekly office hours",
+					"Email support (48hr response)"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Book a demo",
+					href: "/contact?plan=starter"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Professional",
+				monthlyPrice: null,
+				yearlyPrice: null,
+				description: "Designed for regional and national teams scaling automated CRE or infrastructure projects across multiple markets.",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"Everything in Starter",
+					"Advanced agent automations (permitting, test fits, utility acquisition, document drafting)",
+					"Multi-market workflow automation",
+					"Pipeline & GIS data integrations",
+					"Team collaboration tools",
+					"API access",
+					"Agent customization (limited)",
+					"Document automation (advanced)",
+					"Guided onboarding",
+					"Priority support (12hr response)",
+					"Dedicated implementation contact"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Request a quote",
+					href: "/contact?plan=professional"
 				},
 				highlight: true
 			},
@@ -152,19 +200,19 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "Comprehensive automation for hyperscale, public sector, or mission-critical organizations—fully customized and deployed to your requirements.",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"Everything in Professional",
+					"Fully custom agent workflows",
+					"Custom integrations (procurement, permitting, internal GIS, etc)",
+					"Governance, user provisioning, SSO",
+					"Forward-deployed Build engineering",
+					"On-site onboarding available",
+					"Premium support: 4hr and live agent escalation"
 				],
 				cta: {
 					label: "Contact sales",
-					href: "/contact"
+					href: "/contact?plan=enterprise"
 				}
 			}
 		]

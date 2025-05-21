@@ -53,107 +53,126 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="AI automation for infrastructure deployment"
+	text="Build accelerates deployment of critical infrastructure with AI-native automation. Our platform automates 75% of development workflows so you can cut timelines from weeks to hours and scale without adding headcount."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Elena Vaughn",
+			position: "VP of Development",
+			company: "GridPoint Renewables",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We were staring down a 6-week due diligence sprint. Build did it in 2 days—and more exhaustively than we've ever seen.",
+			image: "/generated/image-a-female-executive-in-the-renewable-ener.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Caleb Minn",
+			position: "Head of Strategy",
+			company: "UltraSite Logistics",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We’ve pulled 5 full-time workflows out of BusDev and handed them to agents. Everything moves faster now.",
+			image: "/generated/image-a-north-american-male-logistics-leader-s.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Renato Kim",
+			position: "VP of Deployment",
+			company: "VoltEdge Infrastructure",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Build showed us where our teams were consistently wasting time. We haven’t hired since—and we’ve built more.",
+			image: "/generated/image-a-korean-male-executive-in-a-tailored-su.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built for modern infrastructure teams"
+	subtitle="Powerful AI-native tools tailored for data centers, energy, and logistics."
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Automate diligence in hours",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Generate full site reports and analysis in 48 hours, not 6 weeks—agents handle data collection, evaluation, and reporting."
 		},
 		{
-			title: "Data Analysis",
+			title: "Accelerate permitting and approvals",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Get applications and documents drafted by agents, reviewed by experts, and submitted in hours instead of weeks."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Boost margins on every project",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Increase core deliverable margins by over 120% without expanding your teams or adding headcount."
+		},
+		{
+			title: "Multi-asset, multi-market workflows",
+			description:
+				"Support for data centers, energy, logistics, telecom, and more—all automated in one platform."
+		},
+		{
+			title: "Enterprise-grade security",
+			description:
+				"SOC2, GDPR, and CCPA compliant from day one—trusted by leading infrastructure teams."
+		},
+		{
+			title: "Forward-deployed engineering",
+			description:
+				"Our experts work on-site with your team to deliver automation and support, on your terms."
 		}
 	]}
 />
 
 <UseCases
-	generating
-	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
-	useCases={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/workflows",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
-			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
-			}
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
-			}
-		}
-	]}
+  title="Use Cases"
+  subtitle="Real-world applications for your business needs"
+  useCases={[
+    {
+      title: "Accelerate site assessment",
+      description: "Instantly review and qualify sites with agent-powered due diligence—reducing timelines from weeks to days for data centers and infrastructure projects.",
+      image: "/generated/image-a-project-manager-and-an-engineer-review.webp",
+      link: {
+        href: "/use-cases/accelerate-site-assessment",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Simplify multi-asset deployment",
+      description: "Coordinate energy, telecom, and logistics rollout in one platform. Align cross-functional teams, manage risk, and track progress in real time.",
+      image: "/generated/image-a-diverse-team-of-telecom-and-energy-ope.webp",
+      link: {
+        href: "/use-cases/multi-asset-deployment",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Modernize urban development",
+      description: "Empower planners and developers to visualize scenarios, prepare documentation, and accelerate permitting with AI automation at every step.",
+      image: "/generated/image-urban-planners-and-developers-discussing.webp",
+      link: {
+        href: "/use-cases/modernize-urban-development",
+        label: "Learn more"
+      }
+    }
+  ]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Accelerate infrastructure projects without scaling your team"
+  subtitle="Cut timelines by 80% with AI agents purpose-built to automate real estate and infrastructure workflows."
+  description="Build helps CRE, energy, and digital infrastructure teams eliminate bottlenecks, move faster on high-value sites, and deliver critical projects—from data centers to solar farms—at scale."
+  imageSrc="/generated/image-a-cheerful-real-estate-developer-standin.webp"
+  callsToAction={[
+    {
+      href: '/demo',
+      label: 'Book a demo',
+      variant: 'primary'
+    },
+    {
+      href: '/contact',
+      label: 'Talk to sales',
+      variant: 'secondary'
+    }
+  ]}
+/>

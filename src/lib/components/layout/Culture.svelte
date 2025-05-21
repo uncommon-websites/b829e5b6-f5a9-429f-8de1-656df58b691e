@@ -10,7 +10,24 @@
 	};
 
 	// Props
-	const { values = [] }: { values: Value[] } = $props();
+	const { values = [
+  {
+    title: "Hands-on, not hands-off",
+    description: "We're engineers, operators, and infrastructure experts who work side-by-side with the world’s largest developers and agencies. From zoning setbacks to fiber layer maps, we find out what really slows things down—and then we fix it."
+  },
+  {
+    title: "Low ego. High speed.",
+    description: "The best teams work without politics or posturing. Our culture is built on honest input, tight collaboration, and a bias for execution—whether it’s code commits or site feasibility reviews."
+  },
+  {
+    title: "Impact beyond headcount",
+    description: "Build’s AI-native platform does what infrastructure teams love but can’t scale: thoughtful analysis, precise workflows, and scenario planning. We help builders take on GDP-scale work—without the burnout."
+  },
+  {
+    title: "Real stuff. First principles. No fluff.",
+    description: "If you want to work on frontier software and deliver impact in hours and weeks, not quarters, you’ll fit right in. Our tools power workstreams for real assets: energy, logistics, broadband access, and more."
+  }
+]: { values: Value[] } = $props();
 
 	let cards: HTMLElement[] = $state([]);
 
@@ -38,7 +55,7 @@
 	<div
 		class="section-py section-px container mx-auto grid gap-8 [--gap:--spacing(8)] [--radius:var(--radius-2xl)]"
 	>
-		<SectionHeader title="Our culture." subtitle="The values that guide everything we do" />
+		<SectionHeader title="The platform is powerful. The people are the reason." subtitle="Culture and values at Build" />
 
 		<div
 			class="grid gap-(--gap)"

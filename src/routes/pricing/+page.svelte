@@ -16,34 +16,39 @@
 
 <Testimonials
 	testimonials={[
-		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
-		}
-	]}
+  {
+    name: "Ricardo Zheng",
+    position: "Managing Director",
+    company: "Blueform Development",
+    quote:
+      "We cut weeks from diligence timelines and delivered more projects with the same team size. It's no exaggeration—Build changed how our office works.",
+    image: "/generated/image-a-middle-aged-chinese-man-in-a-professio.webp"
+  },
+  {
+    name: "Elspeth Dahan",
+    position: "VP of Project Execution",
+    company: "Verdant Infrastructure",
+    quote:
+      "Our first project with Build delivered in half the time. And our margins on the package went up 2x. Nothing else on the market comes close.",
+    image: "/generated/image-a-black-british-woman-in-a-professional-.webp"
+  },
+  {
+    name: "Malik Rausch",
+    position: "Director of Growth",
+    company: "StrataNet Solutions",
+    quote:
+      "Every developer I know is asking the same question—how do we do more without hiring 30 analysts? Build is the only serious answer I’ve seen.",
+    image: "/generated/image-a-young-south-asian-man-in-a-professiona.webp"
+  }
+]}
 />
 
-<CallToAction />
+<CallToAction
+	title="Move faster than red tape"
+	subtitle="Build automates infrastructure development—so you can scale operations, not headcount"
+	description="Build’s AI-native platform cuts weeks of manual work down to hours. Automate site selection, due diligence, permitting, utility acquisition, and more—across energy, digital infrastructure, logistics, and telecom. 75% of tasks, off your team’s plate. Our AI agents don’t just summarize. They search, decide, and act—executing the workflows mezzanine and field teams run every day, across land, legal, and local regulators. Build reduces due diligence time by 80%, enabling you to unlock new opportunities faster and keep internal teams focused where it counts."
+	imageSrc="/generated/image-a-cheerful-real-estate-professional-in-a.webp"
+	callsToAction={[
+		{ href: '/contact', label: 'Request access', variant: 'primary' }
+	]}
+/>

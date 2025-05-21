@@ -23,22 +23,27 @@
 		"bg-primary-50 text-primary-600 dark:bg-primary-950 dark:text-primary-400 flex items-center justify-center rounded-full";
 
 	const benefits = [
-		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
-		},
-		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
-		}
-	];
+  {
+    title: "Real-world impact",
+    description: "Your work powers data centers, energy projects, and digital infrastructure—changing what gets built and how fast it happens.",
+    icon: IconGlobe
+  },
+  {
+    title: "Ownership at scale",
+    description: "Join a small team where you own projects end-to-end and work directly with founders, customers, and industry leaders.",
+    icon: IconBriefcase
+  },
+  {
+    title: "Elite growth & autonomy",
+    description: "Steep growth curves, real responsibility from day one, and the flexibility to shape your role as we grow.",
+    icon: IconUsers
+  },
+  {
+    title: "Forward deployed opportunities",
+    description: "Get hands-on with customer projects or join forward deployed engineering squads when needed—no ivory towers here.",
+    icon: IconHeart
+  }
+];
 
 	const openings: JobOpening[] = [
 		// Engineering
@@ -121,78 +126,88 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Zari Kinsey",
+    position: "Operations Strategist",
+    company: "Productivity Systems Team",
+    quote:
+      "Joining Build felt like finding a team that actually values curiosity and collaboration. In ops, things move quick—but the support is real. My manager took time to map out my growth plan in month one, and I’ve since led cross-functional work I never imagined I’d do this early in my career.",
+    image:
+      "/generated/image-a-black-woman-smiling-in-a-casual-office.webp"
+  },
+  {
+    name: "Om Tejani",
+    position: "Software Engineer",
+    company: "Intelligent Agent Team",
+    quote:
+      "As a junior engineer, I assumed I’d just fix bugs for a while—but I shipped features within my second week. The mentorship here is incredible. Senior engineers actually sit with you and pair on challenging design problems, and you’re not just implementing—you’re thinking end-to-end.",
+    image:
+      "/generated/image-a-south-asian-man-working-in-an-open-mod.webp"
+  },
+  {
+    name: "Rowan Burke",
+    position: "Director of Product",
+    company: "Infrastructure Tooling",
+    quote:
+      "Build isn’t just solving a hard problem—they’re respectful of how different people solve it. Leadership here thrives on individual ownership, not micromanagement. I’ve been able to push our roadmap forward with full trust, and collaborate across engineering, AI, and clients—all without layers of red tape.",
+    image:
+      "/generated/image-a-white-woman-leading-a-meeting-in-a-mod.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Apply online",
+    description: "Send us a quick intro and your resume or LinkedIn. No cover letter required, and we review every application within 7 days."
+  },
+  {
+    step: 2,
+    title: "Meet the team",
+    description: "Join a 30-minute call with your hiring manager and one of the founders—no formalities, just a straightforward conversation."
+  },
+  {
+    step: 3,
+    title: "Short trial project",
+    description: "Complete a brief paid exercise based on actual work you’ll do here. We respect your time and pay for your effort."
+  },
+  {
+    step: 4,
+    title: "Decision fast",
+    description: "We avoid drawn-out interview loops. Once we align, you’ll get a call and an offer within days."
+  }
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+  {
+    icon: IconGlobe,
+    title: "Bias for action",
+    description: "We move fast and bias toward shipping impactful work, not endless iteration or consensus for consensus’ sake."
+  },
+  {
+    icon: IconBriefcase,
+    title: "Extreme ownership",
+    description: "Everyone operates like an owner—full responsibility, real trust, and cross-functional scope from day one."
+  },
+  {
+    icon: IconUsers,
+    title: "Direct communication",
+    description: "We are candid and respectful—clear feedback, few meetings, and async by default to maximize deep work."
+  },
+  {
+    icon: IconHeart,
+    title: "Customer obsession",
+    description: "We solve the hardest problems that matter most to our users—building for real-world results, not just PR."
+  }
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Build the future of infrastructure"
+	subtitle="Work with an AI-native team accelerating real-world impact"
+	imageSrc="/generated/image-a-modern-office-environment-with-a-diver.webp"
 />
 
 <!-- Why Join Us Section -->
