@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={false}
+  title="Deliver infrastructure, without the drag"
+  subtitle="Rebuild how you develop energy systems, data centers, and telecom—accelerate timelines, simplify workflows, and increase margin without adding headcount."
+  customers={[
+    {
+      name: "Linda Park",
+      position: "CRE Investor",
+      imageSrc: "/generated/image-a-real-estate-investor-wearing-a-suit-st.webp"
+    },
+    {
+      name: "Rachel Thomas",
+      position: "Technology Executive",
+      imageSrc: "/generated/image-a-female-executive-in-a-spacious-office-.webp"
+    },
+    {
+      name: "Derrick Carter",
+      position: "Infrastructure Manager",
+      imageSrc: "/generated/image-an-african-american-manager-stands-confi.webp"
+    },
+    {
+      name: "Michelle Cortez",
+      position: "Government Affairs",
+      imageSrc: "/generated/image-a-female-government-official-dons-a-hard.webp"
+    },
+    {
+      name: "Walter Green",
+      position: "Logistics Director",
+      imageSrc: "/generated/image-a-senior-logistics-director-dressed-in-f.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/cbre.com',
+		'https://logo.clearbit.com/jll.com',
+		'https://logo.clearbit.com/duke-energy.com',
+		'https://logo.clearbit.com/prologis.com'
+	]}
+/>
 
 <Summary
 	generating
